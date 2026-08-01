@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex-item-left {
+    flex: 50%;
+}
+
+.flex-item-right {
+    flex: 50%;
+}
+
+.flex-item-right img {
+    width: 100%;
+    border-radius: 15px;
+}
+.column-layout{
+    flex-direction: column;
+}
+body {
+    overflow-x: hidden;
+}
